@@ -24,9 +24,13 @@ public class RobotTemplate extends IterativeRobot {
     Joystick left, right;
     double test;
     public void robotInit() {
+<<<<<<< HEAD
             myDrive = new RobotDrive(1,2,3,4);
             left = new Joystick(1);
             right = new Joystick(2);    
+=======
+        self.destruct();
+>>>>>>> e53d835ca07677f63a791fa7cdb965a599c8b443
     }
     /**
      * This function is called periodically during autonomous
